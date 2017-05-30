@@ -1,4 +1,4 @@
-package pojo;
+package core;
 
 /******************************************************************************
  *  Compilation:  javac StdOut.java

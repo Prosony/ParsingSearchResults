@@ -6,13 +6,9 @@ import org.jsoup.Jsoup;
 import org.jsoup.nodes.Document;
 import org.jsoup.nodes.Element;
 import org.jsoup.select.Elements;
-import pojo.ParsingList;
-import pojo.StdOut;
+import generic.ParsingList;
 
 import java.io.IOException;
-import java.io.OutputStreamWriter;
-import java.io.PrintWriter;
-import java.io.UnsupportedEncodingException;
 import java.net.InetSocketAddress;
 import java.net.Proxy;
 import java.util.ArrayList;
@@ -162,7 +158,6 @@ public class CoreParser {
                 if (exit) {
                 break;
                 }
-
                 if (doc != null) {
                 h2Elements = doc.getElementsByAttributeValue("class", "link organic__url link link_cropped_no");
                 }

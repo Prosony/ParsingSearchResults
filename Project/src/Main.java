@@ -3,7 +3,7 @@ import com.beust.jcommander.Parameter;
 import com.google.gson.Gson;
 import com.google.gson.GsonBuilder;
 import core.CoreParser;
-import pojo.StdOut;
+import core.StdOut;
 
 import java.io.File;
 import java.util.ArrayList;

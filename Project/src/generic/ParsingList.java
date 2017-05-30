@@ -1,4 +1,4 @@
-package pojo;
+package generic;
 /**
  * Created by ${Prosony} on ${24.10.2016}.
  */

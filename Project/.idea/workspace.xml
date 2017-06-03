@@ -7,13 +7,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="16e99598-3cd7-4157-9131-9a3a4c9cfa2d" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Project/pojo/ParsingList.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Project/pojo/StdOut.class" afterPath="" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/pojo/ParsingList.java" afterPath="$PROJECT_DIR$/src/generic/ParsingList.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/pojo/StdOut.java" afterPath="$PROJECT_DIR$/src/core/StdOut.java" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Project/core/CoreParser.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Project/core/StdOut.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/core/StdOut.java" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Project/Main.class" afterPath="$PROJECT_DIR$/out/production/Project/Main.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Project/core/CoreParser.class" afterPath="$PROJECT_DIR$/out/production/Project/core/CoreParser.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Main.java" afterPath="$PROJECT_DIR$/src/Main.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/core/CoreParser.java" afterPath="$PROJECT_DIR$/src/core/CoreParser.java" />
@@ -35,28 +32,18 @@
       <file leaf-file-name="ParsingList.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/generic/ParsingList.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="68">
+            <state relative-caret-position="66">
               <caret line="4" column="13" lean-forward="false" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="StdOut.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/core/StdOut.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="344">
-              <caret line="60" column="3" lean-forward="true" selection-start-line="60" selection-start-column="3" selection-end-line="60" selection-end-column="3" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Main.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="Main.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/Main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="34">
-              <caret line="35" column="31" lean-forward="false" selection-start-line="35" selection-start-column="31" selection-end-line="35" selection-end-column="31" />
+            <state relative-caret-position="338">
+              <caret line="49" column="0" lean-forward="false" selection-start-line="49" selection-start-column="0" selection-end-line="50" selection-end-column="0" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -64,13 +51,15 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="CoreParser.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="CoreParser.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/core/CoreParser.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-2668">
-              <caret line="154" column="31" lean-forward="false" selection-start-line="154" selection-start-column="20" selection-end-line="154" selection-end-column="31" />
+            <state relative-caret-position="559">
+              <caret line="194" column="22" lean-forward="false" selection-start-line="194" selection-start-column="22" selection-end-line="194" selection-end-column="22" />
               <folding>
-                <element signature="method#parsingGoogle#0;class#CoreParser#0" expanded="false" />
+                <element signature="imports" expanded="true" />
+                <element signature="e#14359#14360#0" expanded="true" />
+                <element signature="e#14386#14387#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -103,10 +92,10 @@
         <option value="$PROJECT_DIR$/src/java/com/beust/jcommander/converters/BaseConverter.java" />
         <option value="$PROJECT_DIR$/src/pojo/ParsingList.java" />
         <option value="$PROJECT_DIR$/src/pojo/StdOut.java" />
-        <option value="$PROJECT_DIR$/src/Main.java" />
         <option value="$PROJECT_DIR$/src/com/devprosony/core/CoreParser.java" />
         <option value="$PROJECT_DIR$/src/generic/ParsingList.java" />
         <option value="$PROJECT_DIR$/src/core/StdOut.java" />
+        <option value="$PROJECT_DIR$/src/Main.java" />
         <option value="$PROJECT_DIR$/src/core/CoreParser.java" />
       </list>
     </option>
@@ -120,8 +109,8 @@
   <component name="ProjectFrameBounds">
     <option name="x" value="-8" />
     <option name="y" value="22" />
-    <option name="width" value="1382" />
-    <option name="height" value="754" />
+    <option name="width" value="1936" />
+    <option name="height" value="1066" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -140,7 +129,6 @@
     </navigator>
     <panes>
       <pane id="PackagesPane" />
-      <pane id="Scope" />
       <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
@@ -224,12 +212,13 @@
           </PATH>
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="project.structure.last.edited" value="Artifacts" />
+    <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="js.eslint.eslintPackage" value="" />
@@ -238,6 +227,7 @@
     <property name="nodejs_interpreter_path" value="C:/Program Files (x86)/nodejs/node" />
     <property name="js-jscs-nodeInterpreter" value="C:\Program Files (x86)\nodejs\node.exe" />
     <property name="findjar.last.used.dir" value="$PROJECT_DIR$/src/com/gson" />
+    <property name="settings.editor.selected.configurable" value="reference.projectsettings.compiler.javacompiler" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -605,44 +595,6 @@
       <option name="PORT" value="5005" />
       <method />
     </configuration>
-    <configuration default="true" type="ScalaTestRunConfiguration" factoryName="ScalaTest">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <module name="" />
-      <setting name="path" value="" />
-      <setting name="package" value="" />
-      <setting name="vmparams" value="" />
-      <setting name="params" value="" />
-      <setting name="workingDirectory" value="" />
-      <setting name="searchForTest" value="Across module dependencies" />
-      <setting name="testName" value="" />
-      <setting name="testKind" value="Class" />
-      <setting name="showProgressMessages" value="true" />
-      <setting name="useSbt" value="false" />
-      <setting name="useUiWithSbt" value="false" />
-      <classRegexps />
-      <testRegexps />
-      <envs />
-      <method />
-    </configuration>
-    <configuration default="true" type="Specs2RunConfiguration" factoryName="Specs2">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <module name="" />
-      <setting name="path" value="" />
-      <setting name="package" value="" />
-      <setting name="vmparams" value="" />
-      <setting name="params" value="" />
-      <setting name="workingDirectory" value="" />
-      <setting name="searchForTest" value="Across module dependencies" />
-      <setting name="testName" value="" />
-      <setting name="testKind" value="Class" />
-      <setting name="showProgressMessages" value="true" />
-      <setting name="useSbt" value="false" />
-      <setting name="useUiWithSbt" value="false" />
-      <classRegexps />
-      <testRegexps />
-      <envs />
-      <method />
-    </configuration>
     <configuration default="true" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <module name="" />
@@ -712,30 +664,11 @@
     <configuration default="true" type="osgi.bnd.run" factoryName="Test Launcher (JUnit)">
       <method />
     </configuration>
-    <configuration default="true" type="uTestRunConfiguration" factoryName="utest">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <module name="" />
-      <setting name="path" value="" />
-      <setting name="package" value="" />
-      <setting name="vmparams" value="" />
-      <setting name="params" value="" />
-      <setting name="workingDirectory" value="" />
-      <setting name="searchForTest" value="Across module dependencies" />
-      <setting name="testName" value="" />
-      <setting name="testKind" value="Class" />
-      <setting name="showProgressMessages" value="true" />
-      <setting name="useSbt" value="false" />
-      <setting name="useUiWithSbt" value="false" />
-      <classRegexps />
-      <testRegexps />
-      <envs />
-      <method />
-    </configuration>
     <configuration default="false" name="Unnamed" type="Application" factoryName="Application">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <option name="MAIN_CLASS_NAME" value="Main" />
       <option name="VM_PARAMETERS" value="" />
-      <option name="PROGRAM_PARAMETERS" value="--search yandex --query &quot;Acer&quot; --deepness 30 --offset 0 -proxy 104.255.6.50:45554,216.212.240.53:45554,192.236.31.41:45554,213.158.51.91:45554,47.208.145.45:10955,194.63.218.143:45554,69.73.43.91:45554,187.104.149.184:11984,178.117.147.6:46405,68.234.204.75:10200,198.91.156.125:52752,173.11.114.153:19364,45.32.141.201:6789,58.20.41.172:1080,173.233.170.238:45554,47.50.159.110:19322,115.29.161.103:1080,91.125.155.55:21628,94.70.196.104:45554,85.27.161.173:45554" />
+      <option name="PROGRAM_PARAMETERS" value="--search yandex --query &quot;Pull and Bear&quot; --deepness 5 --offset 0 --proxy 103.10.52.83:36039,103.195.142.88:9999,103.228.143.88:45554,104.235.27.4:45554,106.39.162.168:80,112.90.51.50:4130,119.28.15.252:2018,120.26.206.178:8888,123.56.199.203:5271,128.101.177.6:3128,131.191.33.231:45554,131.191.40.164:45554,136.25.184.41:45554,14.140.110.198:49486,14.140.110.198:50437,14.140.110.198:9518,14.36.1.142:14974,14.36.1.142:25077,144.76.109.247:2837,144.76.109.247:2992,144.76.109.247:3128,149.202.115.197:24632,149.202.115.204:24632,149.202.115.216:24632,149.202.149.204:24632,149.202.248.198:24632,149.202.38.124:32321,162.216.224.167:51995,163.121.188.2:4000,163.121.188.3:4000,164.132.40.106:24632,170.250.51.112:45554,172.90.152.207:33080,173.22.1.185:16402,174.141.160.150:45554,177.75.16.93:36819,178.239.168.57:7080,178.32.43.254:24632,178.32.70.100:24632,183.232.25.100:3080,184.63.141.218:36819,184.74.224.83:60852,188.165.131.59:24632,188.165.184.83:24632,188.165.184.99:24632,192.236.31.32:45554,193.192.37.61:51408,198.2.76.35:16268,198.48.223.230:44155,199.59.170.247:45554,199.59.63.181:1090,199.59.63.189:1090,201.53.213.65:17284,205.178.78.3:13852,206.217.13.156:45554,206.51.134.251:45554,209.145.97.15:45214,212.47.226.97:9009,213.136.89.190:13246,213.136.89.190:61979,213.136.89.190:9180,213.32.107.162:24632,216.146.125.76:45554,216.212.244.157:45554,216.212.244.77:45554,218.58.52.158:1088,223.241.214.44:1217,23.25.37.218:34670,24.204.55.3:39522,24.72.213.43:45554,24.96.161.124:13249,37.208.98.202:80,43.241.224.18:8080,45.63.104.107:10006,46.105.107.107:1044,46.105.107.107:10520,46.105.107.107:18122,46.105.107.107:49206,46.105.107.107:53042,46.105.107.107:57235,46.105.107.107:57284,46.105.121.37:12980,46.105.121.37:13974,46.105.121.37:14061,46.105.121.37:15677,46.105.121.37:17037,46.105.121.37:20023,46.105.121.37:21238,46.105.121.37:22534,46.105.121.37:2271,46.105.121.37:2348,46.105.121.37:25366,46.105.121.37:26498,46.105.121.37:2658,46.105.121.37:29113,46.105.121.37:29790,46.105.121.37:30444,46.105.121.37:30446,46.105.121.37:31697,46.105.121.37:33584,46.105.121.37:35148,46.105.121.37:35194,46.105.121.37:39093,46.105.121.37:4287,46.105.121.37:43558,46.105.121.37:43955,46.105.121.37:45657,46.105.121.37:48778,46.105.121.37:49303,46.105.121.37:49618,46.105.121.37:51094,46.105.121.37:55097,46.105.121.37:55842,46.105.121.37:56991,46.105.121.37:59675,46.105.121.37:62325,46.105.121.37:62688,46.105.121.37:63692,47.208.181.108:12049,47.222.181.104:12059,47.35.38.116:48378,47.90.85.164:11080,5.135.166.108:36734,5.135.166.108:47997,5.135.166.108:53384,5.135.166.108:56275,5.135.166.108:59925,50.30.115.52:45554,50.54.27.133:39966,50.63.167.104:52826,50.63.167.105:59518,51.254.104.152:24632,51.254.80.245:24632,51.255.142.132:24632,51.255.201.90:24632,51.255.201.93:24632,51.255.38.101:24632,51.255.55.133:24632,64.184.95.251:45554,64.188.212.9:10200,64.6.0.33:45554,66.172.100.204:31162,67.149.117.130:45554,67.197.148.127:40189,67.197.232.37:57511,67.197.237.211:58705,67.197.245.71:64965,67.197.250.112:62194,68.117.143.146:32330,68.134.119.86:34429,68.170.98.197:45554,68.224.240.126:10307,68.253.249.140:36819,68.3.234.249:16999,69.113.105.183:39275,69.180.180.145:17544,69.54.252.246:45554,70.80.177.228:16921,72.181.135.201:10000,72.23.186.153:18211,72.230.84.147:43480,73.15.240.216:13194,73.247.210.126:11812,73.49.246.205:12641,74.114.75.7:46296,74.220.134.131:45554,74.78.207.170:7637,75.151.213.85:3366,75.82.169.169:22358,81.236.241.60:15501,82.162.214.98:57710,82.223.70.108:3128,85.225.117.21:45554,87.100.187.239:45554,87.100.239.137:45554,87.92.2.60:45554,87.98.230.228:24632,87.98.236.120:24632,88.212.253.194:443,91.134.145.55:24632,91.134.203.202:24632,91.138.73.7:45554,94.23.92.29:24632,94.23.93.155:24632,95.31.16.215:9999,98.0.47.184:45554" />
       <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
       <option name="ALTERNATIVE_JRE_PATH" value="C:/Program Files/Java/jdk1.8.0_121" />
@@ -805,39 +738,41 @@
       <workItem from="1491473200465" duration="475000" />
       <workItem from="1494363066579" duration="1484000" />
       <workItem from="1496171663266" duration="1525000" />
+      <workItem from="1496412577410" duration="2199000" />
+      <workItem from="1496479775051" duration="12122000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="128148000" />
+    <option name="totallyTimeSpent" value="142469000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="22" width="1382" height="754" extended-state="6" />
+    <frame x="-8" y="22" width="1936" height="1066" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Nl-Palette" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.34416243" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.34405145" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.9245586" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.20150054" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Properties" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32744783" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.15733737" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.16044776" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.31573606" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.31573606" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -888,7 +823,7 @@
       <breakpoints-dialog>
         <breakpoints-dialog />
       </breakpoints-dialog>
-      <option name="time" value="10" />
+      <option name="time" value="12" />
     </breakpoint-manager>
     <watches-manager />
   </component>
@@ -897,6 +832,82 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/generic/ParsingList.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="13" lean-forward="false" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/core/StdOut.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1020">
+          <caret line="60" column="3" lean-forward="false" selection-start-line="60" selection-start-column="3" selection-end-line="60" selection-end-column="3" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="510">
+          <caret line="30" column="27" lean-forward="false" selection-start-line="30" selection-start-column="27" selection-end-line="30" selection-end-column="27" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/core/CoreParser.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="4369">
+          <caret line="257" column="40" lean-forward="false" selection-start-line="257" selection-start-column="23" selection-end-line="257" selection-end-column="40" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#14359#14360#0" expanded="true" />
+            <element signature="e#14386#14387#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/generic/ParsingList.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="13" lean-forward="false" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/core/StdOut.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1020">
+          <caret line="60" column="3" lean-forward="true" selection-start-line="60" selection-start-column="3" selection-end-line="60" selection-end-column="3" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="595">
+          <caret line="35" column="31" lean-forward="false" selection-start-line="35" selection-start-column="31" selection-end-line="35" selection-end-column="31" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/core/CoreParser.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2618">
+          <caret line="154" column="31" lean-forward="false" selection-start-line="154" selection-start-column="20" selection-end-line="154" selection-end-column="31" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#14359#14360#0" expanded="true" />
+            <element signature="e#14386#14387#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/Main.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -912,7 +923,9 @@
         <state relative-caret-position="221">
           <caret line="31" column="28" lean-forward="false" selection-start-line="31" selection-start-column="28" selection-end-line="31" selection-end-column="28" />
           <folding>
-            <element signature="method#parsingGoogle#0;class#CoreParser#0" expanded="false" />
+            <element signature="imports" expanded="true" />
+            <element signature="e#14359#14360#0" expanded="true" />
+            <element signature="e#14386#14387#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -932,7 +945,9 @@
         <state relative-caret-position="51">
           <caret line="3" column="3" lean-forward="false" selection-start-line="3" selection-start-column="3" selection-end-line="3" selection-end-column="3" />
           <folding>
-            <element signature="method#parsingGoogle#0;class#CoreParser#0" expanded="false" />
+            <element signature="imports" expanded="true" />
+            <element signature="e#14359#14360#0" expanded="true" />
+            <element signature="e#14386#14387#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -952,7 +967,9 @@
         <state relative-caret-position="595">
           <caret line="35" column="25" lean-forward="false" selection-start-line="35" selection-start-column="25" selection-end-line="35" selection-end-column="25" />
           <folding>
-            <element signature="method#parsingGoogle#0;class#CoreParser#0" expanded="false" />
+            <element signature="imports" expanded="true" />
+            <element signature="e#14359#14360#0" expanded="true" />
+            <element signature="e#14386#14387#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -972,7 +989,9 @@
         <state relative-caret-position="595">
           <caret line="35" column="25" lean-forward="true" selection-start-line="35" selection-start-column="25" selection-end-line="35" selection-end-column="25" />
           <folding>
-            <element signature="method#parsingGoogle#0;class#CoreParser#0" expanded="false" />
+            <element signature="imports" expanded="true" />
+            <element signature="e#14359#14360#0" expanded="true" />
+            <element signature="e#14386#14387#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -992,7 +1011,9 @@
         <state relative-caret-position="3604">
           <caret line="212" column="0" lean-forward="false" selection-start-line="212" selection-start-column="0" selection-end-line="212" selection-end-column="0" />
           <folding>
-            <element signature="method#parsingGoogle#0;class#CoreParser#0" expanded="false" />
+            <element signature="imports" expanded="true" />
+            <element signature="e#14359#14360#0" expanded="true" />
+            <element signature="e#14386#14387#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -1004,38 +1025,40 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/core/StdOut.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="969">
+          <caret line="60" column="3" lean-forward="false" selection-start-line="60" selection-start-column="3" selection-end-line="60" selection-end-column="3" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/generic/ParsingList.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
+        <state relative-caret-position="66">
           <caret line="4" column="13" lean-forward="false" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/core/StdOut.java">
+    <entry file="file://$PROJECT_DIR$/src/core/CoreParser.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="344">
-          <caret line="60" column="3" lean-forward="true" selection-start-line="60" selection-start-column="3" selection-end-line="60" selection-end-column="3" />
-          <folding />
+        <state relative-caret-position="559">
+          <caret line="194" column="22" lean-forward="false" selection-start-line="194" selection-start-column="22" selection-end-line="194" selection-end-column="22" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#14359#14360#0" expanded="true" />
+            <element signature="e#14386#14387#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Main.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="35" column="31" lean-forward="false" selection-start-line="35" selection-start-column="31" selection-end-line="35" selection-end-column="31" />
+        <state relative-caret-position="338">
+          <caret line="49" column="0" lean-forward="false" selection-start-line="49" selection-start-column="0" selection-end-line="50" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/core/CoreParser.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-2668">
-          <caret line="154" column="31" lean-forward="false" selection-start-line="154" selection-start-column="20" selection-end-line="154" selection-end-column="31" />
-          <folding>
-            <element signature="method#parsingGoogle#0;class#CoreParser#0" expanded="false" />
           </folding>
         </state>
       </provider>
